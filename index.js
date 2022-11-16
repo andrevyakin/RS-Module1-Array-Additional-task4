@@ -5,7 +5,6 @@ const matrix = [
 ];
 
 const arr = [];
-for (let i = 0; i < matrix.length; i++)
-    arr.push(...matrix[i]);
-
+matrix.forEach(i => arr.push(...i));
 console.log(arr);
+
